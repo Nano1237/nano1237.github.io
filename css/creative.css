@@ -293,6 +293,24 @@ header .header-content .header-content-inner p {
     padding: 0 15px;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 }
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-description {
+    padding: 10px 15px;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-technologies ul {
+    padding: 0 0px;
+    list-style: none;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-technologies ul li {
+    display: inline-block;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-technologies ul li:not(:last-child):after {
+    content: ",";
+}
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
     text-transform: uppercase;
