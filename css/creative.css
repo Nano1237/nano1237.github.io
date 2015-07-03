@@ -493,3 +493,7 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #222;
 }
+
+footer{
+    margin: 25px 0;
+}
