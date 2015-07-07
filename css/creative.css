@@ -273,18 +273,24 @@ header .header-content .header-content-inner p {
     font-size: 4em;
     text-align: center;
     vertical-align: middle;
+    font-family: FontAwesome;
 }
 
 .portfolio-box.php-image:after {
-    content: '<?php>';
+    content: '\f233';
     color: #777;
     background-color: #fff;
 }
 
 .portfolio-box.js-image:after {
-    content: '<script>';
+    content: '\f121';
     color: #fff;
     background-color: #777;
+}
+.portfolio-box.mysql-image:after {
+    content: "\f1c0";
+    color: #777;
+    background-color: #fff;
 }
 
 .portfolio-box .portfolio-box-caption {
