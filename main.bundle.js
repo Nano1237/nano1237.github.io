@@ -469,7 +469,7 @@ var ChatService = /** @class */ (function () {
                 switch (_a.label) {
                     case 0:
                         words = message.text.replace(/[^\s]/g, '').length + 1;
-                        time = Math.ceil(words / 8) * 1000;
+                        time = Math.ceil(words / 10) * 1000;
                         return [4 /*yield*/, this.showLoaderFor(time, chat)];
                     case 1:
                         chat = _a.sent();
@@ -593,7 +593,7 @@ var getInTouch = new __WEBPACK_IMPORTED_MODULE_0__response_entry__["a" /* Respon
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return otherThings; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__response_entry__ = __webpack_require__("./src/app/chat/response-entry.ts");
 
-var otherThings = new __WEBPACK_IMPORTED_MODULE_0__response_entry__["a" /* ResponseEntry */]('Other things?', 'Other things?', [
+var otherThings = new __WEBPACK_IMPORTED_MODULE_0__response_entry__["a" /* ResponseEntry */]('New things?', 'New things?', [
     { text: 'I\'m currently working on figma, although I wouldn\'t call myself very talented.' },
     { text: 'However, I am also very interested in physics (especially quantum physics).' },
     { text: 'If you are interested in my hobbies: I like to play various board games 🎲 with friends, play canoe polo 🛶 in a club and like to do handicrafts 🔨, for example by building structures for my plants or light objects.' }
